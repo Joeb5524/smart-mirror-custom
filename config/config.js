@@ -58,7 +58,7 @@ let config = {
                     {
                         fetchInterval: 7 * 24 * 60 * 60 * 1000,
                         symbol: "calendar-check",
-                        url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+                        url: "https://ics.calendarlabs.com/75/5a4ba70a/UK_Holidays.ics"
                     }
                 ]
             }
