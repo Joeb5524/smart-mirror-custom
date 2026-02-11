@@ -95,8 +95,8 @@ let config = {
             config: {
                 weatherProvider: "openmeteo",
                 type: "current",
-                lat: 52.415517878786424,
-                lon: -4.065147406681946
+                lat: 52.4131915,
+                lon: -4.0811541
             }
         },
         {
@@ -107,8 +107,8 @@ let config = {
                 appendLocationNameToHeader: true,
                 weatherProvider: "openmeteo",
                 type: "forecast",
-                lat: 52.415517878786424,
-                lon: -4.065147406681946
+                lat: 52.4131915,
+                lon: -4.0811541
             }
         },
         {
