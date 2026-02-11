@@ -27,7 +27,7 @@ let config = {
     httpsPrivateKey: "",	// HTTPS private key path, only require when useHttps is true
     httpsCertificate: "",	// HTTPS Certificate path, only require when useHttps is true
 
-    language: "en",
+    language: "fr",
     locale: "en-US",   // this variable is provided as a consistent location
     // it is currently only used by 3rd party modules. no MagicMirror code uses this value
     // as we have no usage, we  have no constraints on what this field holds
