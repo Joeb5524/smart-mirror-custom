@@ -93,6 +93,7 @@ let config = {
             module: "weather",
             position: "top_right",
             config: {
+                weatherProvider: "openmeteo",
                 type: "current",
                 lat: 52.4131915,
                 lon: -4.0811541
@@ -104,6 +105,7 @@ let config = {
             header: "Weather Forecast",
             config: {
                 appendLocationNameToHeader: true,
+                weatherProvider: "openmeteo",
                 type: "forecast",
                 lat: 52.4131915,
                 lon: -4.0811541
