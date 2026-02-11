@@ -93,8 +93,8 @@ let config = {
             module: "weather",
             position: "top_right",
             config: {
-                appendlocationnametoheader: true,
-                weatherProvider: "ukmetofficedatahub",
+                appendLocationNameToHeader: true,
+                weatherProvider: "openmeteo",
                 type: "current",
                 lat: 52.415517878786424,
                 lon: -4.065147406681946
@@ -105,7 +105,7 @@ let config = {
             position: "top_right",
             header: "Weather Forecast",
             config: {
-                weatherProvider: "ukmetofficedatahub",
+                weatherProvider: "openmeteo",
                 type: "forecast",
                 lat: 52.415517878786424,
                 lon: -4.065147406681946
