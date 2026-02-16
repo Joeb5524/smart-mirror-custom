@@ -39,6 +39,21 @@ let config = {
 
     modules: [
         {
+            module: "MMM-MedicationReminder",
+            position: "top_middle",
+            header: "Medication",
+            config: {
+                medications: [
+                    { name: "Sertraline", dosage: "150mg", time: "09:00" },
+                    { name: "Vitamin D", dosage: "1000IU", time: "18:00" }
+                ],
+                alertWindowMinutes: 15,
+                missedGraceMinutes: 60,
+                showRelative: true,
+                maxItems: 6
+            }
+        },
+        {
             module: 'MMM-Remote-Control',
             position: 'bottom_left', // Required to show URL/QR code on mirror
             // you can hide this module afterwards from the remote control itself
