@@ -40,7 +40,7 @@ let config = {
     modules: [
         {
             module: "MMM-MedicationReminder",
-            position: "top_third",
+            position: "upper_third",
             header: "Medication",
             config: {
                 medications: [
