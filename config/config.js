@@ -83,6 +83,17 @@ let config = {
             position: "top_bar"
         },
         {
+            module: "MMM-SimpleRemote",
+            position: "fullscreen_above",
+            config: {
+                basePath: "/mm-simple-remote",
+                displaySeconds: 25,
+                maxQueue: 25,
+                showTimestamp: true,
+                dismissOnTouch: true
+            }
+        },
+        {
             module: "clock",
             position: "top_left"
         },
